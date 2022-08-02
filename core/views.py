@@ -1,13 +1,3 @@
-
-from ast import BinOp
-from email.mime import image
-from hashlib import new
-from http import server
-import imp
-from multiprocessing import context
-from tkinter import Button
-from turtle import pos
-from wsgiref.util import request_uri
 from django.contrib.auth.models import User, auth
 from django.contrib import messages
 from django.shortcuts import redirect, render
